@@ -1,12 +1,13 @@
 .footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 101%;
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 1rem 0; /* Adiciona espaço dentro do footer */
     z-index: 1; /* O fundo do footer vai ficar atrás do conteúdo */
+    margin-left: -1rem;
 }
 
 .footer p {

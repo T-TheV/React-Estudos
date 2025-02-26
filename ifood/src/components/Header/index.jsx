@@ -13,6 +13,10 @@ function Header(){
                 <li><a href="/" >Home</a></li>
                 <li><a href="/contato">Contatos</a></li>
                 <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/contato">Contatos</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/contato">Contatos</a></li>
+                <li><a href="/sobre">Sobre</a></li>
             </ul>
         </nav>
         </header>

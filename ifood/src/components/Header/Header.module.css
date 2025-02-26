@@ -5,6 +5,11 @@
     padding: 1.25rem;
     flex-direction: column;
     align-items: center;
+    position: fixed; /* Fixa a navbar */
+    top: 0; /* Posiciona no topo */
+    left: 0; /* Posiciona à esquerda */
+    right: 0; /* Posiciona à direita */
+    z-index: 1000; /* Garante que a navbar ficará acima de outros elementos */
 }
 
 .Header nav ul {
@@ -15,7 +20,6 @@
     border-radius: 2rem;
     justify-content: center; 
     width: 50%; 
-    
 }
 
 .Header nav ul li {
@@ -27,8 +31,6 @@
     flex: 1; 
     display: flex; 
     justify-content: center;
-    
-    
 }
 
 .Header nav ul li a {
@@ -37,5 +39,9 @@
     display: block;
     padding: 1rem 0;
     text-align: center;
-    width: 100%; 
+    width: 100%;
+}
+
+body {
+    padding-top: 5rem; /* Ajuste conforme necessário para evitar que o conteúdo fique oculto atrás da navbar */
 }
