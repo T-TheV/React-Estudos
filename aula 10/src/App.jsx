@@ -1,16 +1,26 @@
-import React from 'react'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Home from './pages/Home'
+import React
+  from 'react'
+import Home 
+  from './pages/Home'
+import Sobre
+  from './pages/Sobre'
+import Contato
+  from './pages/Contato'
+
+import {BrowserRouter, Route, Routes} 
+  from 'react-router-dom'
 
 function App() {
 
   return (
-    <>
-          
-          <Home />
-          
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home />}></Route>
+      <Route path='/sobre' element={<Sobre />}></Route>
+      <Route path='/contato' element={<Contato />}></Route>
+
+    </Routes>
+    </BrowserRouter>
   )
 }
 

@@ -10,8 +10,8 @@ function Header(){
         <nav className={style.Header}>
             <ul>
     
-                <li><a href="/home" >Home</a></li>
-                <li><a href="/contatos">Contatos</a></li>
+                <li><a href="/" >Home</a></li>
+                <li><a href="/contato">Contatos</a></li>
                 <li><a href="/sobre">Sobre</a></li>
             </ul>
         </nav>
